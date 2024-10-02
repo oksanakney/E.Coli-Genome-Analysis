@@ -36,7 +36,7 @@ def gc_content_over_windows(fasta_file, window_size):
 
 # Specify your FASTA file and window size
 fasta_file_path = "E-Coli-Genome.fna"  # Update this path as needed
-window_size = 1000  # Size of the sliding window in nucleotides
+window_size = 500000  # Size of the sliding window in nucleotides
 
 # Calculate G-C content over the genome
 positions, gc_ratios = gc_content_over_windows(fasta_file_path, window_size)
